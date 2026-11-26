@@ -579,6 +579,58 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "F3 · Read copy for validation",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "F3 · Read copy for validation"
+            ],
+            "id": "a49b8d22-c95f-4d73-80a0-5663ac871096",
+            "source": {
+              "x": 1190,
+              "y": 292
+            },
+            "target": {
+              "cell": "8a4991be-c5ae-4ca6-9db1-542fd98fce0c",
+              "port": "e4638f0c-c0ed-4c9b-850d-cc0c79b3c0d6"
+            },
+            "vertices": [
+              {
+                "x": 1470,
+                "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
             "zIndex": 11,
             "connector": "smooth",
             "data": {
@@ -662,16 +714,20 @@
             },
             "vertices": [
               {
-                "x": 1320,
-                "y": 265
+                "x": 1220,
+                "y": 230
               },
               {
-                "x": 1510,
-                "y": 260
+                "x": 1430,
+                "y": 180
               },
               {
-                "x": 1590,
-                "y": 240
+                "x": 1560,
+                "y": 180
+              },
+              {
+                "x": 1630,
+                "y": 220
               }
             ]
           }
